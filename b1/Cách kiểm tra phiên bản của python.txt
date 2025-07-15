@@ -1,0 +1,7 @@
+Cách kiểm tra phiên bản của python đang dùng
+python -v
+PATH là một danh sách các thư mục (directory paths) được phân tách bằng dấu ;
+
+Truy cập nhanh chương trình từ Command Line
+Tiện lợi khi cài đặt phần mềm
+Tránh lặp lại đường dẫn dài

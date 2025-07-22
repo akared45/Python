@@ -15,10 +15,10 @@ class Student:
 if __name__ == "__main__":
     student1 = Student(
         student_id="S001",
-        firstname="Nguyen",
-        middlename="Van",
-        lastname="An",
-        birthday="2003-05-12"
+        firstname="Le",
+        middlename="Thanh",
+        lastname="Vinh",
+        birthday="2001-05-06"
     )
     
     student1.displayinfo()

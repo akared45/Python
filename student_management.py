@@ -15,7 +15,7 @@ class Student(Person):
         self.gpa = gpa
 
     def __str__(self):
-        return f"{self.id:<10} {self.name:<20} {self.gpa:<10.2f}"
+        return f"{self.id} {self.name} {self.gpa}"
 
 class StudentManager:
     def __init__(self):
@@ -51,7 +51,7 @@ class StudentManager:
 
             print("\nAll Students:")
             print("-" * 50)
-            print(f"{'ID':<10} {'Name':<20} {'GPA':<10}")
+            print(f"{'ID'} {'Name'} {'GPA'}")
             print("-" * 50)
             for student in self.students:
                 print(student)
@@ -67,7 +67,7 @@ class StudentManager:
 
             print("\nExcellent Students (GPA >= 8):")
             print("-" * 50)
-            print(f"{'ID':<10} {'Name':<20} {'GPA':<10}")
+            print(f"{'ID'} {'Name'} {'GPA'}")
             print("-" * 50)
             for student in excellent_students:
                 print(student)
@@ -94,7 +94,7 @@ class StudentManager:
                 print("-" * 50)
                 print(f"ID: {student.id}")
                 print(f"Name: {student.name}")
-                print(f"GPA: {student.gpa:.2f}")
+                print(f"GPA: {student.gpa}")
             else:
                 print("No student found with this ID!")
         except Exception as e:
@@ -156,4 +156,5 @@ def main():
             print(f"Program error: {e}")
 
 if __name__ == "__main__":
+
     main()
